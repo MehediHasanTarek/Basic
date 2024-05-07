@@ -12,13 +12,14 @@ import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.play.core.appupdate.AppUpdateManager
 import java.net.Inet4Address
 import java.net.NetworkInterface
 
 
 class MainActivity : AppCompatActivity() {
 
- //   private lateinit var appUpdateManager: AppUpdateManager
+  private lateinit var appUpdateManager: AppUpdateManager
 
     private lateinit var textIp :TextView
 
