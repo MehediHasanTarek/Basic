@@ -19,7 +19,7 @@ import java.net.NetworkInterface
 
 class MainActivity : AppCompatActivity() {
 
-  //private lateinit var appUpdateManager: AppUpdateManager
+  private lateinit var appUpdateManager: AppUpdateManager
 
     private lateinit var textIp :TextView
 
